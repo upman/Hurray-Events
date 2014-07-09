@@ -5,45 +5,64 @@
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- fonts -->
-	<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	
+	<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-latest.min.js"> </script>
+	
 
-	<!-- custom CSS  -->
+	<!-- custom CSS  & JS-->
 	<link href="css/styles.css" rel="stylesheet">
+	<script src='js/scrollspy.js'></script>
+	
 
-</head>
+</head> 	
 
 <title>Hurray!</title>
 
-<div class="wrapper">
+<body>
+
+	<div class="wrapper">
 
 
 
 
 
-	<!-- sidebar -->
-	<div class="fixed-sidebar">
-		<div class="logo-container" >
-			<img id="logo" src="img/logo.gif" >
-		</div>
-		<div class="menu hidden-phone">
-			ha <br> haha 
-		</div>
-	</div>
-	<!--end of sidebar -->
-
-	<!-- The Content-->
-	<div class="main-content">
-		<section id="intro">
-			<div id="media-buttons">
-				<img src="img/facebook.png">
-				<img src="img/twitter.png">
-				<img src="img/g+.png">
+		<!-- sidebar -->
+		<div class="fixed-sidebar">
+			<div class="logo-container" >
+				<p>Hurray Events</p>
 			</div>
-			<strong> Who are we? </strong> 
-			<br>
-			Event organisers, creative people.
-		</section>
-		<section>something</section>
+			<div class="menu hidden-phone">
+				<nav id="topNav">
+					<ul>
+						<li> <a class="active" href="#" >intro</a> </li>
+						<li><a href="#something" >something</a></li>
+						<li><a href="#something2">something2</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!--end of sidebar -->
+
+		<!-- The Content-->
+		<div class="main-content" >
+			<section id="intro">
+				<div id="media-buttons">
+					<img src="img/facebook.png">
+					<img src="img/twitter.png">
+					<img src="img/g+.png">
+				</div>
+				<div id="who">
+				<h1>Who we are.</h1>
+				<h4>Event Organisers. Creative People.</h4>
+				<p id="description">An Event management company based in Chennai and Bangalore, India.	We undertake Corporate, Promotional and Family Events. We strive for customer satisfaction at every step. Perfection is simply delivered in every event we take up. </p>
+				</div>
+			</section>
+			<section id="something">something</section>
+			<section id="something2">something2</section>
+
 		<!--
 		<section class="sample-text">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquet sem nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed imperdiet eros libero, scelerisque tincidunt lorem commodo vel. Ut imperdiet quis massa nec congue. Integer rhoncus fermentum quam eget sodales. Donec in dictum libero. Sed et massa in nisi dictum dapibus. Integer diam leo, cursus a porttitor a, luctus eget elit. Morbi mattis nibh lorem, sit amet convallis purus ullamcorper non. Quisque id varius magna. Proin tristique elit interdum orci porta ullamcorper. Nullam vehicula, metus at accumsan elementum, velit nisi euismod turpis, eget placerat lacus neque ut mauris. Nulla facilisi.
@@ -90,6 +109,7 @@
 	<!-- end of content -->
 
 </div>
+</body>
 
 
 </html>
