@@ -167,7 +167,10 @@ section {
 
 }
 
-
+/*Remove Firefox's nasty dotted outline for anchors*/
+a{
+    outline:0;
+}
 
 
 
