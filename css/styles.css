@@ -2,7 +2,7 @@
 /*Background image */
 
 html { 
-  background: url(/img/stacked-stones.png) no-repeat center center fixed; 
+  background: url(../img/stacked-stones.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
