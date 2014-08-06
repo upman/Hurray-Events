@@ -100,8 +100,13 @@ h4{
     margin:0;
 }
 
+h5{
+    font-size: 1.4em;
+    margin:0;
+}
+
 p{
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 .main-content{
@@ -115,7 +120,7 @@ p{
 
 /*mobile*/
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .main-content{
         margin:0;
         text-align: center;
@@ -148,34 +153,33 @@ section {
 
 
 
-#who{
-    position:absolute;
-    top: 25%;
-    right:0;
-}
-
-
-
-#description{
-    margin:0 0 0 50%;
-}
-
-@media screen and (max-width: 768px){
-    #description{
-        margin:0;
-    }
-
-}
-
 /*Remove Firefox's nasty dotted outline for anchors*/
 a{
     outline:0;
 }
 
+.read-more{
+    background: rgba(0,0,0,0);
+    padding: 3px 5px 3px 5px;
+    border: 2px solid white;
+    font-size: 1.4em;
 
+}
 
+.read-more:hover{
+    background: white;
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
 
+/*Margins in between rows when needed*/
+.top5{
+    margin-top: 5%;
+}
 
+.top10{
+    margin-top: 10%;
+}
 
 
 
