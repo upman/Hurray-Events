@@ -57,7 +57,7 @@ html {
     max-width: 100%;
     font-family: 'Open Sans Condensed';
     color: white;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
 }
 
@@ -72,6 +72,13 @@ html {
 
 #topNav li.active a{
     background: rgba(0,0,0,0.2);
+    font-size: 2.1em;
+    color:white;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease-out 0.05s;
+    -moz-transition: all 500ms ease-out 0.05s;
+    -o-transition: all 500ms ease-out 0.05s;
+    transition: all 500ms ease-out 0.05s;
 }
 
 #topNav li a:hover {
@@ -90,23 +97,23 @@ html {
 /*The main content*/
 
 h1{
-    font-size: 4.5em;
+    font-size: 5em;
     font-weight: bold; 
     margin: 0;   
 }
 
 h4{
-    font-size: 2.5em;
+    font-size: 3em;
     margin:0;
 }
 
 h5{
-    font-size: 1.4em;
+    font-size: 2em;
     margin:0;
 }
 
 p{
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 
 .main-content{
@@ -155,7 +162,7 @@ section {
 
 /*Remove Firefox's nasty dotted outline for anchors*/
 a{
-    outline:0;
+    outline: 0 !important;
 }
 
 .read-more{
@@ -163,6 +170,7 @@ a{
     padding: 3px 5px 3px 5px;
     border: 2px solid white;
     font-size: 1.4em;
+    color: white;
 
 }
 
@@ -173,13 +181,18 @@ a{
 }
 
 /*Margins in between rows when needed*/
-.top5{
-    margin-top: 5%;
+.top2{
+    margin-top: 2%;
 }
 
 .top10{
     margin-top: 10%;
 }
 
+#modal-close-x{
+    font-size: 2em;
+    color: white;
+
+}
 
 

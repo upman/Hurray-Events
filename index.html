@@ -3,13 +3,13 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Lato:100|Open+Sans+Condensed:300|PT+Sans+Narrow' rel='stylesheet' type='text/css'>
 
 	
-	<script src="http://code.jquery.com/jquery-latest.min.js"> </script>
+	
 	
 
 	<!-- custom CSS  & JS-->
@@ -25,21 +25,17 @@
 
 	<div class="wrapper">
 
-
-
-
-
 		<!-- sidebar -->
 		<div class="fixed-sidebar">
 			<div class="logo-container" >
-				<p>Hurray Events</p>
+				Hurray Events
 			</div>
-			<div class="menu hidden-phone">
+			<div class="menu hidden-xs">
 				<nav id="topNav">
 					<ul>
-						<li class="active"> <a href="#" >Home</a> </li>
-						<li><a href="#something" >The Team</a></li>
-						<li><a href="#something2">Gallery</a></li>
+						<li class="active"> <a href="#" >The Who</a> </li>
+						<li><a href="#why-us" >The Why</a></li>
+						<li><a href="#what-we-do">The What</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -49,60 +45,96 @@
 		<!-- The Content-->
 		<div class="main-content" >
 			<section id="intro">
-				<div class="row-fluid">
-					<div class="span6 offset6">
-						<div id="media-buttons">
-							<img src="img/facebook.png">
-							<img src="img/twitter.png">
-							<img src="img/g+.png">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-5 col-md-offset-7 top2">
+							<div id="media-buttons">
+								<img src="img/facebook.png">
+								<img src="img/twitter.png">
+								<img src="img/g+.png">
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row-fluid">
-					<div class="span10 offset2 top10">
-						<h1>Who we are</h1>
+					<div class="row">
+						<div class="col-md-10 col-md-offset-2 top10">
+							<h1>Who we are</h1>
+						</div>
 					</div>
-				</div>
-				
 
-				<div class="row-fluid">
-					<div class="span6 offset6">
-						<h4>Event Organisers. Creative People.</h4>
+
+					<div class="row">
+						<div class="col-md-4 col-md-offset-8">
+							<h4>Event Organisers. Creative People.</h4>
+						</div>
 					</div>
-				</div>
 
-				<div class="row-fluid">
-					<div class="span6 offset6">
-						<h5>An Event management company based in Chennai and Bangalore, India.	We undertake Corporate, Promotional and Family Events. We strive for client satisfaction at every step. Perfection simply delivered in every event. </h5>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-6">
+							<h5>An Event management company based in Chennai and Bangalore, India.	We undertake Corporate, Promotional and Family Events. We strive for client satisfaction at every step. Perfection simply delivered in every event. </h5>
+						</div>
 					</div>
 				</div>
 
 
 			</section>
-			<section id="something">
-				<div class="row-fluid">
-					<div class="span6 offset6">
-						<h1>Why us</h1>
-					</div>
-				</div>
-				<div class="row-fluid">
-					<div class="span8 offset4">
-						<h5>A good event is memorable for all the right reasons. 
-							It creates a buzz around your company, getting you noticed, developing interest and putting a lasting smile on the faces of your staff, clients and stakeholders.
-							Hurray Events has been creating successful events since 2011 with our team's event management and marketing experience of over 15 years. </h5>
+			<section id="why-us">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-6">
+							<h1>Why us</h1>
 						</div>
 					</div>
-					<div class="row-fluid top5">
-						<div class="span3 offset9">
-							<a class="read-more">Read more</a>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-4">
+							<h5>A good event is memorable for all the right reasons. 
+								It creates a buzz around your company, getting you noticed, developing interest and putting a lasting smile on the faces of your staff, clients and stakeholders.
+								Hurray Events has been creating successful events since 2011 with our team's event management and marketing experience of over 15 years. </h5>
+							</div>
+						</div>
+						<div class="row top5">
+							<div class="col-md-3 col-md-offset-9 top2">
+								<a class="read-more" data-toggle="modal" data-target="#why-us-modal">Read more</a>
+								
+
+								<!-- Modal -->
+								<div class="modal fade" id="why-us-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span id="modal-close-x" aria-hidden="true">&times;</span></button>
+												<h1 class="modal-title text-center" id="myModalLabel">Why choose us?</h1>
+											</div>
+											<p class="modal-body text-left">
+												We use our talent, know-how and contacts to make your job easier, delivering custom-made
+												events for every occasion, and to suit every budget. <br><br>
+
+												Outstanding Results Whether you need to entertain clients or motivate staff, we’ll make sure your event is a success. <br><br>
+
+												We’ll work closely with you to develop a range of innovative and creative ideas, then coordinate and manage every aspect of the planning, to deliver outstanding results. <br><br>
+
+												Our friendly, experienced team will advise you on all the elements necessary to ensure your	event to go according to required plan, including venue, entertainment, lighting, catering and Photo and Video Art. <br><br>
+
+												At The Events Company, helping promote your brand, product or services comes naturally, we do it all the time and we do it well. <br><br>
+
+												Working closely with our clients, our strategy-led approach, detailed attention to production detail and costs means we take care of every aspect of your promotional campaign and event. <br><br>
+
+												From venue finding and sourcing brand ambassadors to managing print, design, promotional staff and branded merchandise means we can help you achieve more than you ever thought	possible.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
-				<section id="something2"><p>Quisque porttitor quam nec enim interdum vulputate. Aliquam mi urna, lacinia nec vestibulum sit amet, molestie aliquet enim. Cras imperdiet leo id nulla egestas suscipit. Vivamus vel sem interdum, tempus nisl ut, pellentesque dolor. Quisque eget nisl ante. Integer blandit condimentum ligula commodo cursus. Duis condimentum accumsan mauris eu pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer accumsan erat nec sapien hendrerit, non vestibulum quam lacinia. Praesent eget risus mattis, adipiscing urna nec, auctor massa. Curabitur quis nibh a nisl blandit tincidunt. Duis blandit laoreet luctus.</p></section>
+				<section id="what-we-do"><p>Quisque porttitor quam nec enim interdum vulputate. Aliquam mi urna, lacinia nec vestibulum sit amet, molestie aliquet enim. Cras imperdiet leo id nulla egestas suscipit. Vivamus vel sem interdum, tempus nisl ut, pellentesque dolor. Quisque eget nisl ante. Integer blandit condimentum ligula commodo cursus. Duis condimentum accumsan mauris eu pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer accumsan erat nec sapien hendrerit, non vestibulum quam lacinia. Praesent eget risus mattis, adipiscing urna nec, auctor massa. Curabitur quis nibh a nisl blandit tincidunt. Duis blandit laoreet luctus.</p></section>
 			</div>
 			<!-- end of content -->
 
 		</div>
+
+		<script src="js/jquery.js"> </script>
+		<script src="js/bootstrap.js"></script>
 	</body>
 
 
