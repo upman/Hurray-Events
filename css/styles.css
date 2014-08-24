@@ -72,7 +72,7 @@ html {
 
 #topNav li.active a{
     background: rgba(0,0,0,0.2);
-    font-size: 2.1em;
+    font-size: 2em;
     color:white;
     font-weight: bold;
     -webkit-transition: all 500ms ease-out 0.05s;
@@ -91,7 +91,7 @@ html {
     text-decoration: none;
     width: 100%;
     font-family: 'Lato';
-    font-size:2em;
+    font-size:1.9em;
 }
 
 /*The main content*/
@@ -195,4 +195,41 @@ a{
 
 }
 
+.modal-header .close{
+    margin-top: -4.3%;
+    margin-right: -1%;
+}
 
+.modal-header, .close{
+    z-index: 1;
+}
+
+.ul{
+    list-style-type: circle;
+}
+
+.modal-body li{
+    font-size: 1.5em;
+}
+
+.preview-image{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    max-width: 96%;
+    padding: 2%;
+    background:white;
+}
+
+.preview-image:hover{
+    cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+.carousel-inner .item img{
+    width: 100%;
+}
