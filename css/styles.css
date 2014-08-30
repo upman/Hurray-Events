@@ -2,16 +2,23 @@
 /*Background image */
 
 html { 
-  background: url(../img/stacked-stones.jpg) no-repeat center center fixed; 
+  background: url(../img/colored-pencils.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-
-  
+  background-size: cover;  
 }
 
-
+.overlay{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.45); 
+}
 
 
 /*sidebar */
@@ -71,7 +78,7 @@ html {
 }
 
 #topNav li.active a{
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.5);
     font-size: 2em;
     color:white;
     font-weight: bold;
@@ -117,7 +124,7 @@ p{
 }
 
 .main-content{
-    
+
     position: relative;
     margin: 0 7% 0 30%;
     font-family: 'PT Sans Narrow';
@@ -165,7 +172,7 @@ a{
     outline: 0 !important;
 }
 
-.read-more{
+.read-more, .submit{
     background: rgba(0,0,0,0);
     padding: 3px 5px 3px 5px;
     border: 2px solid white;
@@ -239,3 +246,27 @@ figcaption {
     font-weight: bold;
     text-align: center; 
 }
+
+.logo{
+    width: 100%;
+    height: 10%;
+}
+
+.text-box:focus{
+    background: white;
+    color: rgba(0,0,0,0.5);
+}
+
+.text-box{
+    font-family: 'PT Sans Narrow';
+    border: 2px solid white;
+    display: block;
+    background: rgba(0,0,0,0);
+    margin: 0% 5% 5% 5%;
+    padding: 5% 5% 5% 5%;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+
+
