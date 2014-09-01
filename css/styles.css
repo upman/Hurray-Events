@@ -100,7 +100,7 @@ transition:all 1s}
     max-width: 100%;
     font-family: 'Open Sans Condensed';
     color: white;
-    font-size: 2.5em;
+    font-size: 2.7em;
     text-align: center;
 }
 
@@ -309,6 +309,21 @@ figcaption {
 }
 
 
+body > #loading-indicator{
+    display: initial;
+    color:white;
+    font-size: 5em;
+    font-family: 'PT Sans Narrow';
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
 
+body > #loading-indicator:after{
+    content:attr(data-progress-text);
+}
 
-
+body.pace-done > #loading-indicator{
+    display: none;
+} 
