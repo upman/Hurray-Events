@@ -4,45 +4,44 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}*/
+    }*/
 
 
-body > #content-wrapper{
+    body > #content-wrapper{
+        opacity:0; filter:alpha(opacity:0)
+    }
 
-    opacity:0; filter:alpha(opacity:0)
-}
+    body.pace-done > #content-wrapper{
+        opacity:1;
+        filter:alpha(opacity=100);
+        -webkit-transition:all 2s;
+        -moz-transition:all 2s;
+        -o-transition:all 2s;
+        transition:all 2s}
+    }
 
-body.pace-done > #content-wrapper{
-opacity:1;
-filter:alpha(opacity=100);
--webkit-transition:all 1s;
--moz-transition:all 1s;
--o-transition:all 1s;
-transition:all 1s}
-}
+    #content-wrapper{
+        z-index: 0;
+    }
+    #bg {
+        z-index: -2;
+        position: fixed; 
+        top: 0; 
+        left: 0%; 
+        width: 100%; 
+        height: 100%;
+    }
+    #bg img {
+      position: fixed; 
+      top: 0; 
+      left: 0; 
+      right: 0; 
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+  }
 
-#content-wrapper{
-    z-index: 0;
-}
-#bg {
-    z-index: -2;
-  position: fixed; 
-  top: 0; 
-  left: 0%; 
-  width: 100%; 
-  height: 100%;
-}
-#bg img {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
-#overlay{
+  #overlay{
     z-index: -1;
     height: 100%;
     width: 100%;
@@ -314,16 +313,27 @@ body > #loading-indicator{
     color:white;
     font-size: 5em;
     font-family: 'PT Sans Narrow';
-    position: absolute;
+    position: fixed;
     top: 50%;
     width: 100%;
     text-align: center;
 }
 
-body > #loading-indicator:after{
-    content:attr(data-progress-text);
-}
 
 body.pace-done > #loading-indicator{
     display: none;
 } 
+
+body.pace-done > #construction{
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background-color: #2299DD;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 1.5em;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
